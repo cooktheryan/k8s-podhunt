@@ -7,7 +7,6 @@ metadata:
   namespace: pod-hunt
 spec:
   failedBuildsHistoryLimit: 5
-  nodeSelector: worker
   output:
     to:
       kind: ImageStreamTag
